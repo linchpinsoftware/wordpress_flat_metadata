@@ -1,0 +1,7 @@
+This simple, free WordPress plugin flattens post and user meta data, transforming them from a highly normalized form into a more suitable format for reporting and analysis.
+
+A few notes:
+
+1. This plugin is provided free of charge. Use at your own risk.
+2. CREATE TABLE privileges are required. In addition to producing a CSV file, the plugin creates tables in the database ([:prefix]postmeta_flat and [:prefix}usermeta_flat), which contain the same data.
+3. Generating and downloading a complete set of meta data can negatively impact system performance. Please do so only during off-hours or, better yet, on a sandbox populated with your live data.
