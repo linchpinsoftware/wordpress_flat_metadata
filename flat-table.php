@@ -16,7 +16,7 @@ add_action('admin_init', function () {
 });
 
 add_action('admin_menu', function () {
-	add_menu_page(
+    add_menu_page(
         $title = 'Flat Meta Data',
         $title,
         'manage_options',
