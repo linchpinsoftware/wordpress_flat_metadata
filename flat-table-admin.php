@@ -6,8 +6,6 @@
         <a class="flat-table-link" target="_blank" href="?flat_table_download=<?=$v?>">
             <button>Download <?=$v?> meta data</button>
         </a>
-        <!--<br/>
-        Last compiled on [date]-->
     </p>
     <script type="text/javascript">
         jQuery('.flat-table-link').off().on('click', function(e) {
